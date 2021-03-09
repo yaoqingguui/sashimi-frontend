@@ -10,13 +10,15 @@ interface CHAIN_INFO {
 const CHAIN_ENV_MAP: any = {
   main: {
     chainId: 1,
-    rpcUrl: 'https://mainnet.eth.aragon.network/',
+    // rpcUrl: 'https://mainnet.eth.aragon.network/',
+    rpcUrl: 'https://mainnet.infura.io/v3/4e02c42064a447099f6c887993e88986',
     ethscanType: '',
     stakingPool: '0x1DaeD74ed1dD7C9Dabbe51361ac90A69d851234D'
   },
   'online-test': {
     chainId: 1,
-    rpcUrl: 'https://mainnet.eth.aragon.network/',
+    // rpcUrl: 'https://mainnet.eth.aragon.network/',
+    rpcUrl: 'https://mainnet.infura.io/v3/4e02c42064a447099f6c887993e88986',
     ethscanType: '',
     stakingPool: '0x1DaeD74ed1dD7C9Dabbe51361ac90A69d851234D'
   },
